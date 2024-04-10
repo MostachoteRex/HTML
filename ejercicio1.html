@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandatory</h2>
+
+    <form action="formulario" method="post">
+        <label for="name">Full name*:</label>
+        <br>
+        <input type="text" name="name" id="" placeholder="FirstName LastName">
+        <br>
+        <label for="email">Email address*:</label>
+        <br>
+        <input type="email" name="email" id="" placeholder="EMAIL_ADDRESS">
+        <br>
+        <label for="package">Select Tour Package*:</label>
+        <br>
+        <select name="package" id="">
+            <option value="1">Goa</option>
+            <option value="2">Goa2</option>
+            <option value="3">Goa3</option>
+        </select>
+        <br>
+        <label for="date">Arrival date*:</label>
+        <br>
+        <input type="date" name="" id="">
+        <br>
+        <label for="">Number of persons*:</label>
+        <br>
+        <input type="number" name="" id="" placeholder="UNKNOWN_TYPE">
+        <br>
+        <label for="checkbox">What would you want to avail*:</label>
+        <br>
+        Boarding <input type="checkbox" name="boarding" id="">
+        <br>
+        Fooding <input type="checkbox" name="fooding" id="">
+        <br>
+        Sight seeing <input type="checkbox" name="signt seeing" id="">
+        <br>
+        <label for="code">Discount Coupon code:</label>
+        <br>
+        <input type="text" name="code" id="" placeholder="UNKNOWN_TYPE">
+        <br>
+        <label for="">Terms and conditions*</label>
+        <br>
+        <input type="radio" name="agree" id="">I agree 
+        <input type="radio" name="disagree" id="">I disagree
+        <br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
